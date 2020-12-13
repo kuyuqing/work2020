@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>雪梨大作业</title>
+    <link rel="stylesheet" href="css/daceyan.css" />
+</head>
+
+<body>
+    <div class="bg">
+        <div class=" header clear">
+            <img src="img/logo.png" alt="logo图" class="logo " />
+            <div id="time">显示时间</div>
+            <form class="form">
+                <input type="text" placeholder="请输入关键词… " class="search" />
+                <button id="btn">全站搜索</button>
+                <button id="sign">登录</button>
+            </form>
+          
+        </div>
+        
+            
+    </div>
+    <div class="bg2">
+        <ul class="nav  clear">
+            <li><a href="#">素材中国</a></li>
+            <li><a href="#">精选素材</a></li>
+            <li><a href="#">高清图片</a></li>
+            <li><a href="#">PS工具</a></li>
+            <li><a href="#">PPT模板</a></li>
+            <li><a href="#">淘宝素材</a></li>
+            <li><a href="#">PSD素材</a></li>
+            <li><a href="#">字体下载</a></li>
+            <li><a href="#">设计欣赏</a></li>
+            </ul>
+    </div>
+    <div class="bg3">
+        <div class="banner">
+            
+            <img src="img/banner1.jpg"  id="photo">
+            
+    
+            <div class="liebiao">
+                <ul>
+                    <li>
+                        <a href="#"  id="hua">矢量素材 >> </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">时尚渐变 >> </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">PSD素材 >> </a>
+                    </li>
+                    <li>
+                        <a href="#">简历模板 >> </a>
+                    </li>
+                    <li>
+                        <a href="#">淘宝素材 >> </a>
+                    </li>
+                    <li>
+                        <a href="#">设计欣赏 >> </a>
+                    </li>
+                    <li>
+                        <a href="#">音效素材 >> </a>
+                    </li>
+                    <li>
+                        <a href="#">AE模板 >> </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div> 
+
+    </div>
+    <div id="fly">
+        <img src="img/dongtai.gif" id="rad">
+       
+    </div>
+    <div class="psd">
+        <h2>PSD素材</h2>
+        <p>————&nbsp;&nbsp;&nbsp;&nbsp;    Layered Material &nbsp;&nbsp;&nbsp;&nbsp;   ————</p>
+
+    </div>
+    <div class="sucaione">
+        <ul>
+            <li>
+                <img src="img/sucai1.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai2.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai3.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai4.png" class="imgps">
+            </li>
+        </ul>
+    </div>
+    <div class="sucaione">
+        <ul>
+            <li>
+                <img src="img/sucai5.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai6.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai7.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/sucai8.png" class="imgps">
+            </li>
+        </ul>
+    </div>
+    <div class="psd">
+        <h2>PS工具</h2>
+        <p>———— &nbsp;&nbsp;&nbsp;&nbsp;   Photoshop Tools  &nbsp;&nbsp;&nbsp;&nbsp;  ————</p>
+    </div>
+    <div class="sucaione">
+        <ul>
+            <li>
+                <img src="img/ps1.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/ps2.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/ps3.png" class="imgps">
+            </li>
+            <li>
+                <img src="img/ps4.png" class="imgps">
+            </li>
+        </ul>
+    </div>
+
+    
+    <div id="footer1">
+        <div id="baitiao"></div>
+        <ul class="ull" id="ul1">
+            <li>关于我们</li>
+            <li>使用条款</li>
+            <li>意见建议</li>
+            <li>联系我们</li>
+        </ul>
+        <ul class="ull" id="ul2">
+            <li>矢量素材</li>
+            <li>淘宝素材</li>
+            <li>使用教程</li>
+            <li>PR素材</li>
+        </ul>
+        <ul class="ull" id="ul3">
+            <li>简历模板</li>
+            <li>网页模板</li>
+            <li>高清图片</li>
+            <li>代码素材</li>
+        </ul>
+        <ul  id="count">
+            <div>100W+</div>
+            <div>注册会员</div>
+            <div></div>
+            <div></div>
+        </ul>
+        <ul id="number">
+            <div>500w+</div>
+            <div>素材数量</div>
+            <div></div>
+            <div></div>
+        </ul>
+        <ul id="new">
+            
+            <div id="go">回到顶部</div>
+            <div></div>
+        </ul>
+
+    </div>
+    <div id="footer2">
+    <p>_______________________________________________________________________________</p>
+    <p>16素材网素材中国 Copyright © 2010-2020 16sucai.com 鄂ICP备19029494号</p>
+    </div>
+            
+    
+
+    <script>
+    var time = document.getElementById('time');
+    var hua = document.getElementById('hua');
+    var cover = document.getElementById('cover');
+    var photo = document.getElementById('photo');
+    var go = document.getElementById('go');
+    var fly = document.getElementById('fly');
+    var rad = document.getElementById('rad');
+
+    var i=1;
+   function add0(n){
+        return n<10?'0'+n:n;
+    }
+    setInterval(function(){
+        var d = new Date();
+        var h = d.getHours();
+        var m = d.getMinutes();
+        var s = d.getSeconds();
+        time.innerHTML = add0(h) + ':'+add0(m)+':'+add0(s);
+    },1000);
+
+    setInterval(function(){
+        i++;
+        photo.src = "img/banner"+i+".jpg"
+        while(i==4){
+            i=0;
+        }
+    },2000)
+
+    var go=document.getElementById('go')
+        window.onscroll=function(){
+            var st=document.documentElement.scrollTop;
+            if(st>400){
+                go.style.display="block";
+            }else{
+                go.style.display="none";
+            }
+        }
+        
+        go.onclick=function(){
+            document.documentElement.scrollTop=0;
+        }
+
+        var maxLeft = document.body.clientWidth - 100;
+        var speedX = 3; 
+        function move(){
+            var curLeft = parseInt( getStyle(rad,'left') );
+              
+            if(curLeft > maxLeft || curLeft<0){
+                speedX = -speedX;
+            }
+             rad.style.left = curLeft + speedX + 'px';   
+
+        }
+            
+        var id = setInterval(move,50);
+        function getStyle(obj,attr){
+            if(obj.currentStyle){
+                return obj.currentStyle[attr];
+            }else{
+                return getComputedStyle(obj)[attr]
+            }
+        }
+
+
+      
+    </script>
+                        
+    
+  
+    
+        
+
+</body>
+
+</html>
